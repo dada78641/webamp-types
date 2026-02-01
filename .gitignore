@@ -1,0 +1,26 @@
+# Webamp files copied from the node_modules directory.
+/types/
+
+# Development files
+/_source/
+/_test/
+/_test*.*
+/_todo.txt
+/.scratch
+
+# Build
+dist/
+
+# Node.js
+node_modules
+
+# OS
+.DS_Store
+Icon[^M]
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
