@@ -11,19 +11,21 @@ Webamp contains types, but they are not built in a way that allows them to be re
 Install using npm:
 
 ```bash
-npm i -D @dada78641/webamp-types@^2.2.0-types.1
+npm i -D @dada78641/webamp-types@^2.2.0-types
 ```
 
 Add a declaration file:
 
 ```ts
-// webamp.d.mts
+// e.g. src/types/webamp.d.mts
 import type * as WebampTypes from '@dada78641/webamp-types';
 
 declare module 'webamp' {
   export = WebampTypes.default;
 }
 ```
+
+And add the directory to your TypeScript compiler options `typeRoots`.
 
 ## License
 
